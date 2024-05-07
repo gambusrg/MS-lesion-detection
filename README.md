@@ -2,6 +2,8 @@
 Detection of lesions in multiple sclerosis using nnUNet
 
 This work focuses on the detection of multiple sclerosis lesions through the nnUNet architecture using MRI. In this work, we will demonstrate how medical segmentation can be performed.
+In this case it will be used basal images of T1w and Flair for the training and a binarized lesion mask.
+Adapt all the working directories.
 
 ## Requirements
 1. Google Account.
