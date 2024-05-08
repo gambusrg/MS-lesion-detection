@@ -13,4 +13,5 @@ Adapt all the working directories.
 
 ## Notes
 This work was created by Gerard Ramos Gambús, Data Science Master's student in the Universitat Oberta de Catalunya, headed by Eloy Martínez de las Heras.
-
+To begin with, we have a dataset of 1160 NIFTI images which are divided into different instances of T1w and FLAIR. Additionally, there are lesion masks and two differentiations of lesions: SEL and noSEL, in case segmentation and classification of SELs are desired. In this case, segmentation of multiple sclerosis lesions is performed.
+All these files must be in the correct format before the code can be used.
