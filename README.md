@@ -29,38 +29,21 @@ It is needed to have a specific folder structure with all MRI seaprated:
 
     ```
     nnUNet_raw/Dataset101
-
-    
     ├── dataset.json
-
     ├── imagesTr
-
     │   ├── ...
-    
     ├── imagesTs
-
     │   ├── ...
-    
     └── labelsTr
-
         ├── ...
-        
     nnUNet_raw/Dataset102
-    
-    ├── dataset.json
-    
-    ├── imagesTr
-    
-    │   ├── ...
-    
-    ├── imagesTs
-    
-    │   ├── ...
-    
-    └── labelsTr
-    
-        ├── ...
-        
+    ├── dataset.json    
+    ├── imagesTr    
+    │   ├── ...    
+    ├── imagesTs    
+    │   ├── ...    
+    └── labelsTr    
+        ├── ...        
     ```
 `nnUNet_preprocessed`: This is the folder where the preprocessed data will be saved. The data will also be read from this folder during training.
 
