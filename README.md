@@ -64,6 +64,6 @@ Mask label properties:
 Originally, the MRI came with the skull, but a more precise result can be obtained by removing it using https://github.com/MIC-DKFZ/HD-BET.
 
 Next steps:
-- [Execution](execution.md)
-- [Inference](inference.md)
+- [Execution](documentation/execution.md)
+- [Inference](documentation/inference.md)
 
