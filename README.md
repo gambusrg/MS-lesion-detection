@@ -24,15 +24,28 @@ Additionally, we also had our Gold Standard, the lesion masks, which are files w
 The original lesion masks were labeled with the tags of 1: lesion and 0: background.
 
 It is needed to have a specific folder structure with all MRI seaprated:
+`nnUNet_raw`:
+    ```
+    nnUNet_raw/Dataset101
+    ├── dataset.json
+    ├── imagesTr
+    │   ├── ...
+    ├── imagesTs
+    │   ├── ...
+    └── labelsTr
+        ├── ...
+    nnUNet_raw/Dataset102
+    ├── dataset.json
+    ├── imagesTr
+    │   ├── ...
+    ├── imagesTs
+    │   ├── ...
+    └── labelsTr
+        ├── ...
+    ```
+`nnUNet_preprocessed`: This is the folder where the preprocessed data will be saved. The data will also be read from this folder during training.
+`nnUNet_results`: This specifies where nnU-Net will save the model weights.
 
-nnUNet_raw/Dataset101
-├── dataset.json
-├── imagesTr
-│   ├── ...
-├── imagesTs
-│   ├── ...
-└── labelsTr
-    ├── ...
 
 ## Preprocessing
 MRI properties:
@@ -47,9 +60,4 @@ Mask label properties:
 
 Originally, the MRI came with the skull, but a more precise result can be obtained by removing it using https://github.com/MIC-DKFZ/HD-BET.
 
-
-
-
-## Execution
-Once you have set all the folder structure requirements and your files are in the correct format it is time to proceed with the training. 
-
+[Execution](execution.md)
