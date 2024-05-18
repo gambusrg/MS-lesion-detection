@@ -9,7 +9,7 @@ Adapt all the working directories.
 1. Google Account.
 2. At least 10 Gb of free disk.
 3. Google colab Pro with minimum 100 instances.
-4. Visualization tool for volumetric data. I used MITK Workbench.
+4. Visualization tool for volumetric data. I used [MITK Workbench](https://docs.mitk.org/nightly/MITKWorkbenchManualPage.html).
 
 ## Notes
 This work was created by Gerard Ramos Gambús, Data Science Master's student in the Universitat Oberta de Catalunya, headed by Eloy Martínez de las Heras.
@@ -63,4 +63,7 @@ Mask label properties:
 
 Originally, the MRI came with the skull, but a more precise result can be obtained by removing it using https://github.com/MIC-DKFZ/HD-BET.
 
-[Execution](execution.md)
+Next steps:
+- [Execution](documentation/execution.md)
+- [Inference](documentation/inference.md)
+
