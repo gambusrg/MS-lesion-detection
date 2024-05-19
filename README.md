@@ -58,6 +58,6 @@ Mask label properties:
 Originally, the MRI came with the skull, but a more precise result can be obtained by removing it using [HD-Bet](https://github.com/MIC-DKFZ/HD-BET).
 
 Next steps:
-- [Execution](documentation/execution.md)
-- [Inference](documentation/inference.md)
+- [Execution](documentation/execution.md): Now it is time to train the nnU-Net with all our data.
+- [Inference](documentation/inference.md): Here is where predictions are made.
 
