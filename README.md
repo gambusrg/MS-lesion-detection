@@ -15,7 +15,7 @@ Adapt all the working directories.
 This work was created by Gerard Ramos Gambús, Data Science Master's student in the Universitat Oberta de Catalunya, headed by Eloy Martínez de las Heras.
 
 ## Data
-To begin with, we have a dataset of 1160 NIFTI images which are divided into different instances of T1w and FLAIR. Additionally, there are lesion masks and two differentiations of lesions: SEL and noSEL, in case segmentation and classification of SELs are desired. In this case, segmentation of multiple sclerosis lesions is performed.
+To begin with, we have a dataset of 1160 NIFTI images which are divided into different instances of T1w and FLAIR. These images correspond to 129 different people diagnosed with MS. Additionally, we also have our Gold Standard, the lesion masks, which are files where the lesions are identified.
 All these files must be in the correct format before the code can be used.
 
 First, the idea was to train the nnU-Net with a dataset of T1w and Flair images from a total of 129 subjects at the baseline time point. The first image corresponded to the T1w baseline, while the other referred to the Flair baseline.
