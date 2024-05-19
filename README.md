@@ -15,13 +15,9 @@ Adapt all the working directories.
 This work was created by Gerard Ramos Gambús, Data Science Master's student in the Universitat Oberta de Catalunya, headed by Eloy Martínez de las Heras.
 
 ## Data
-To begin with, we have a dataset of 1160 NIFTI images which are divided into different instances of T1w and FLAIR. These images correspond to 129 different people diagnosed with MS. Additionally, we also have our Gold Standard, the lesion masks, which are files where the lesions are identified.
+To begin with, we have a dataset of 1160 NIFTI images which are divided into different instances of T1w and FLAIR. These images correspond to 129 different people diagnosed with MS. Additionally, we also have our Gold Standard, the lesion masks, which are files where the lesions are identified. Masks files are labeled with 1: lesion detected, 0: no lesion detected.
 All these files must be in the correct format before the code can be used.
 
-First, the idea was to train the nnU-Net with a dataset of T1w and Flair images from a total of 129 subjects at the baseline time point. The first image corresponded to the T1w baseline, while the other referred to the Flair baseline.
-Additionally, we also had our Gold Standard, the lesion masks, which are files where the lesions are identified.
-
-The original lesion masks were labeled with the tags of 1: lesion and 0: background.
 
 It is needed to have a specific folder structure with all MRI seaprated:
 
